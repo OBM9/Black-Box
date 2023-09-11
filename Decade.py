@@ -1,4 +1,4 @@
-age = input("How old are you?\n")
+age = int(input("How old are you?\n"))
 decade = age/10
 
 
