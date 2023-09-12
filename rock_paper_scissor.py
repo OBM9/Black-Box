@@ -1,6 +1,6 @@
 import random
 
-random.choice(['rock', 'paper', 'scissors'])
+computer_choice = random.choice(['rock', 'paper', 'scissors'])
 user_choice = input('Do you want rock, paper, or scissors?')
 
 if computer_choice == user_choice:
