@@ -1,2 +1,2 @@
 import random
-random.randint(1,6)
+roll = random.randint(1,6)
