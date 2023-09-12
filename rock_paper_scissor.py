@@ -9,3 +9,5 @@ elif user_choice == 'paper' and computer_choice == 'rock'
 print('WIN')
 elif user_choice == 'scissors' and computer_choice == 'paper'
 print('WIN')
+else:
+  print('You lose, computer wins :)')
