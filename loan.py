@@ -9,4 +9,4 @@ money_owed = money_owed + interest_paid
 money_owed = money_owed - payment
 
 print('paid', payment ,'of which', interest_paid , 'was interest' ) 
-print('Now I owes')          
+print('Now I owes', money_owed)          
