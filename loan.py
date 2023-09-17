@@ -14,5 +14,5 @@ for i in range(months):
         print('The last payment is', money_owed)
         print('You paid off the loan in, i+1, (months) ')
 
-      print('paid', payment , 'of which', interest_paid , 'was interest', end='') 
-      print('Now I owe', money_owed)           
+        print('paid', payment , 'of which', interest_paid , 'was interest', end='') 
+        print('Now I owe', money_owed)           
