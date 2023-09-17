@@ -10,7 +10,7 @@ for i in range(months):
     interest_paid = money_owed*monthly_rate
     money_owed = money_owed + interest_paid
   
-    if (money_owed = money_owed - payment <0):
+    if (money_owed - payment <0):
         print('The last payment is', money_owed)
         print('You paid off the loan in, i+1, (months) ')
         break
