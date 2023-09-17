@@ -7,9 +7,9 @@ monthly_rate = apr/100/12
 
 for i in range(months): 
   
-interest_paid = money_owed*monthly_rate
-money_owed = money_owed + interest_paid
-money_owed = money_owed - payment
+  interest_paid = money_owed*monthly_rate
+  money_owed = money_owed + interest_paid
+  money_owed = money_owed - payment
 
-print('paid', payment , 'of which', interest_paid , 'was interest', end='') 
-print('Now I owe', money_owed)           
+  print('paid', payment , 'of which', interest_paid , 'was interest', end='') 
+  print('Now I owe', money_owed)           
